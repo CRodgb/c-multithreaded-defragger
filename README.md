@@ -29,12 +29,14 @@ make
 ```
 This creates the `defrag` executable from `main.c`
 ### 3. Run the application:
-Repo includes a folder, `/dirs`, to use as a working example.  
-
-The command takes two arguments: the directory to search and the name of the output file you want to create.
+The command takes two arguments: the path to the directory to search and the name for the reassembled output file.
 ``` bash
-./defrag dirs <your_output_file.mp3>
+./defrag <path_to_directory> <your_output_file>
 ```
-### 4. Enjoy the music
-Listen to the .mp3 in any media player!  
+#### Example:
+Repo includes a folder, `/dirs`, to use as a working example.
+``` bash
+./defrag dirs music.mp3
+```
+You can now listen to the reassembled `music.mp3` in any media player!  
 ♪┏(・o･)┛♪
